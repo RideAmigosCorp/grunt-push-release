@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 
     if (incOrCommitOnly === 'bump-only') {
       grunt.verbose.writeln('Only incrementing the version.');
-
+      opts.bumpVersion = true;
       opts.add = false;
       opts.commit = false;
       opts.createTag = false;
