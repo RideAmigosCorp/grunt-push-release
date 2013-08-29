@@ -2,6 +2,8 @@
 
 **Bump package version, create tag, commit, push...**
 
+With some modifications for RA use.
+
 ## Installation
 
 Install npm package, next to your project's `Gruntfile.js` file:
